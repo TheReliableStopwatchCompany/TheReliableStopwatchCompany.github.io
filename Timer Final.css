@@ -1,0 +1,97 @@
+
+Body {
+	background-color: black
+}
+
+Body {
+	color:white
+}
+
+Body {
+	font-size: 100px
+}
+
+Body {
+	font-weight: 600
+}
+
+Body {
+	font: cursive
+}
+
+Body {
+    height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+head {
+	justify-content: right
+}
+
+p {
+	font-size: 25;
+	display: flex
+}
+
+.wrapper {
+	user-select: none;
+	text-align: center;
+}
+
+.wrapper .buttons{
+	display: flex;
+	text-align: center;
+	Justify-content: center;
+	margin-top:20px
+}
+
+.buttons button{
+	padding: 6px 16px;
+	outline:none;
+	border:none;
+	margin: 0 5px;
+	font-size:19px;
+	font-weight: 500;
+	border-radius: 4px;
+	cursor: pointer;
+
+}
+
+.start{
+	background-color: green
+}
+
+.reset{
+	background-color: yellow
+}
+
+.stop{
+	background-color: red
+}
+
+.buttons button.active,
+.buttons button.stopActive{
+	cursor: not-allowed;
+	opacity: 0.2;
+}
+
+.bth button{
+	padding: 6px 16px;
+	outline:none;
+	border:none;
+	margin: 0 5px;
+	font-size:19px;
+	font-weight: 500;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.bth {
+	position: absolute;
+	left: 30;
+	top: 30;
+}
+

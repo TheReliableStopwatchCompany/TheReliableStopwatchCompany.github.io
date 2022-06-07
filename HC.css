@@ -1,0 +1,41 @@
+
+.junjul {
+	font-size: 30px;
+	Text-align: center;
+	color: white
+}
+
+.sepoct {
+	font-size: 30px;
+	Text-align: center;
+	color: white
+}
+
+.dec {
+	font-size: 30px;
+	Text-align: center;
+	color: white
+}
+
+.bth button{
+	padding: 6px 16px;
+	outline:none;
+	border:none;
+	margin: 0 5px;
+	font-size:19px;
+	font-weight: 500;
+	border-radius: 4px;
+	cursor: pointer;
+
+}
+
+.bth {
+	position: absolute;
+	left: 30;
+	top: 30;
+}
+
+body {
+	background-color: black;
+}
+

@@ -1,0 +1,45 @@
+Body {
+     display: flex
+	 }
+
+Body {
+	background-color: black
+}
+
+Body {
+	color:white
+}
+
+Body {
+	font-size: 40px
+}
+
+Body {
+	font-weight: 600
+}
+
+
+Body {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+.bth button{
+	padding: 6px 16px;
+	outline:none;
+	border:none;
+	margin: 0 5px;
+	font-size:19px;
+	font-weight: 500;
+	border-radius: 4px;
+	cursor: pointer;
+
+}
+
+.bth {
+	position: absolute;
+	left: 30;
+	top: 30;
+}

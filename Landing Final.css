@@ -1,0 +1,44 @@
+
+Body {
+	font-size = 450px
+}
+
+body {
+	background-color: black
+}
+
+Body {
+	color: white
+}
+
+Body {
+	font-size: 100px
+}
+
+Body {
+	font-weight: 600
+}
+
+Body {
+	text-align: center
+}
+
+.wrapper .buttons{
+	display: flex;
+	text-align: center;
+	Justify-content: center;
+	margin-top:20px
+}
+
+.buttons button{
+	padding: 6px 16px;
+	outline:none;
+	border:none;
+	margin: 0 5px;
+	font-size:19px;
+	font-weight: 500;
+	border-radius: 4px;
+	cursor: pointer;
+
+}
+	
